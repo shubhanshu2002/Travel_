@@ -1,13 +1,326 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.containe{
+    display: flex;
+    align-items: center;
+    background-color: #28282a;
+    color: white;
+    font-size: 16px;
+    height: 7vh;
+
 }
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 19px; 
+}
+.right a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.right a:hover{
+    color: #ff3366;
+}
+
+.main{
+    height: 80vh;
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/trip.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 5px;
+   position: relative;
+   color: white;
+
+}
+.main-data{
+    margin-top: 20px;
+    position:absolute;
+    height: 500px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main h1{
+    color: white;
+    font-size: 40px;
+
+    font-weight: bold;
+    margin-top: 200px;
+}
+.main-data p{
+    margin-top: 80px;
+    font-size: 23px;
+    font-weight: 200;
+}
+.main hr{
+    width: 50px;
+    margin-top: -5px;
+    height: 4px;
+    border: 3px solid #ff3366;
+}
+
+.main button{
+    padding: 17px 70px;
+    background-color: #ff3366;
+    border: 1px solid #ff3366  ;
+    color: white;
+    margin-top:10px;
+}
+.main span{
+    margin: 10px;
+    font-size: 12px;
+}
+.main-sec{
+    background-color: gainsboro;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn3{
+    position: absolute;
+    top: 420px;
+    padding: 17px 70px;
+    background-color: #ff3366;
+    border: 1px solid #ff3366  ;
+    color: white;
+}
+
+.sec-data
+{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    text-align: center;
+}
+.icon i{
+    font-size: 70px;
+    margin-top: 10px;
+}
+.sec-data h5{
+    margin-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.container hr{
+    margin-top: 0px;
+    width: 55px;
+    text-align: center;
+    height: 4px;
+    border: 3px solid #ff3366;
+}
+.imgs{
+    display: grid;
+    grid-template-rows: 500px 500px 500px ;
+    grid-template-columns: 500px 500px 500px;
+
+}
+.div-img1{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+.div-img1:hover{
+    opacity:1;
+   
+}
+.div-img2:hover{
+    opacity:1;
+   
+}
+.div-img3:hover{
+    opacity:1;
+   
+}
+.div-img4:hover{
+    opacity:1;
+   
+}
+.div-img5:hover{
+    opacity:1;
+   
+}
+.div-img6:hover{
+    opacity:1;
+   
+}
+.div-img7:hover{
+    opacity:1;
+   
+}
+.div-img8:hover{
+    opacity:1;
+   
+}
+.div-img9:hover{
+    opacity:1;
+   
+}
+.div-img2{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img3{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img4{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img5{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img6{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img7{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img8{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}.div-img9{
+    background-image: url('/Users/shubhanshupaliwal/Travel/my-app/src/img/img9.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.btn1{
+    padding: 16px 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+
+}
+.btn1:hover{
+  border: 4px solid white;
+
+}
+.op
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sec{
+    margin-top: -5px;
+}
+.sec-data span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.main-sec p{
+    margin-top: 20px;
+}
+
+.head-sec3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hr{
+    width: 55px;
+    margin: auto;
+}
+.hr hr{
+    border: 2px solid #ff3366;
+    margin-top: 0px;
+    height: 4px;
+}
+
+.footer{
+    height: 10%;
+    background-color: #28282a;
+    color:  white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-data span{
+    color: #ff3366;
+}
+
+@media screen and (max-width: 754px){
+    .main-sec{
+        flex-direction: column;
+        height: 800px;
+    }
+    .btn3{    
+        top: 750px;
+        position: absolute;
+      border-radius: 10px;
+      width: 250px;
+      height: 40px;
+      font-size: 10px;
+    }
+    .imgs{
+        grid-template-columns: 300px 300px;
+        grid-template-rows:200px 200px 200px 200px 200px ;
+    }
+    }
+
+    

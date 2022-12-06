@@ -1,0 +1,72 @@
+.signin-modal
+{
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0px;
+    left: 38%;
+    width:500px;
+    height: 350px;
+    z-index: 1;
+    box-shadow:10px 10px 5px 5px ;
+}
+
+
+.signin-head{
+    text-align: center;
+    position: relative;
+}
+.cancel{
+    /* position: absolute;
+    right: 30px;
+    top: 10px; */
+  margin-left: 10px;
+ 
+}
+.cancel button{
+    border: 1px solid black;
+    padding: 5px 5px;
+    width: 30px;
+    margin-top: 5px;
+    
+}
+.signin-head hr{
+    width: 100%;
+}
+
+.signmain-data
+{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signmain-data input{
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+.signmain-data hr{
+    width: 50%;
+    margin-top: 0px;
+}
+
+.main-footer{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.main-footer button
+{
+    background-color: rgb(121, 121, 255);
+    border: 2px solid rgb(121, 121, 255);
+    padding: 10px 10px;
+    width: 50%;
+    margin-top: -80px;
+
+}

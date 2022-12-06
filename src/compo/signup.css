@@ -1,0 +1,63 @@
+.signup-modal
+{
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0px;
+    left: 38%;
+    width:500px;
+    height: 390px;
+    z-index: 1;
+    box-shadow:10px 10px 5px 5px ;
+}
+.signup-head{
+    text-align: center;
+    position: relative;
+}
+.cancel{
+    /* position: absolute;
+    right: 30px;
+    top: 10px; */
+  margin-left: 10px;
+ 
+}
+.cancel button{
+   border-radius: 50px;
+   color: white;
+   background-color: gray;
+}
+
+.sigupmain-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sigupmain-data input{
+    margin: 2px;
+    padding: 10px 5px;
+   border: none;
+    outline: none;
+}
+.signup-footer{
+    text-align: center;
+    margin-top: 10px;
+    width: 60%;
+    margin: auto;
+}
+.signup-footer button{
+
+    padding: 5px;
+    background-color:  #ff3366;
+    border: 2px solid #ff3366;
+    color: white;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sigupmain-data hr{
+    width: 50%;
+    margin-top: 0px;
+    margin: auto;
+}
